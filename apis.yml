@@ -1,8 +1,28 @@
 aid: julia-computing
 name: Julia Computing
-description: Julia Computing is a company surfaced as a portfolio company of general-catalyst and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  JuliaHub, Inc. (founded in 2015 as Julia Computing by the creators of the Julia
+  programming language) develops the open-source Julia language and operates JuliaHub,
+  a cloud platform for scientific and technical computing. JuliaHub provides hosted
+  Julia compute, package hosting and the Julia package registry, notebooks, and
+  large-scale batch/job execution. Its product portfolio includes JuliaHub (cloud
+  compute), Dyad (equation-based modeling and simulation), Pumas (pharmaceutical
+  modeling and simulation), and the Julia language itself, serving aerospace, pharma,
+  industrials, government, and utilities. Programmatic access is provided through the
+  first-party JuliaHub.jl Julia client and OpenID Connect (Dex) authentication.
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://avatars.githubusercontent.com/u/10258468?v=4
 url: https://raw.githubusercontent.com/api-evangelist/julia-computing/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +32,85 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
-apis: []
+- Julia
+- Scientific Computing
+- Modeling and Simulation
+- High Performance Computing
+- Cloud Computing
+- Data Science
+- Programming Language
+- Package Registry
+- Machine Learning
+- Pharma
+apis:
+- name: JuliaHub Platform
+  description: >-
+    The JuliaHub cloud platform for scientific and technical computing - hosted Julia
+    compute, batch/job execution, datasets, and the Julia package registry. Accessed
+    programmatically through the first-party JuliaHub.jl Julia client with OpenID
+    Connect authentication.
+  humanURL: https://help.juliahub.com/juliahub/stable/
+  baseURL: https://juliahub.com
+  tags:
+  - Scientific Computing
+  - Cloud Computing
+  - Julia
+  properties:
+  - type: Documentation
+    url: https://help.juliahub.com/juliahub/stable/
+  - type: Authentication
+    url: authentication/julia-computing-authentication.yml
+  - type: OAuthScopes
+    url: scopes/julia-computing-scopes.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DeveloperPortal
+  url: https://help.juliahub.com/
+- type: Documentation
+  url: https://help.juliahub.com/juliahub/stable/
+- type: GettingStarted
+  url: https://help.juliahub.com/juliahub-jl/stable/getting-started/
+- type: Blog
+  url: https://juliahub.com/blog
+- type: Pricing
+  url: https://juliahub.com/pricing/juliahub
+- type: Login
+  url: https://juliahub.com/ui/
+- type: TermsOfService
+  url: https://juliahub.com/legal/terms
+- type: PrivacyPolicy
+  url: https://juliahub.com/legal/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/JuliaComputing
+- type: TrustCenter
+  url: https://trust.juliahub.com/
+- type: Compliance
+  url: security/julia-computing-trust-center.yml
+- type: Authentication
+  url: authentication/julia-computing-authentication.yml
+- type: OAuthScopes
+  url: scopes/julia-computing-scopes.yml
+- type: WellKnown
+  url: well-known/julia-computing-well-known.yml
+- type: Packages
+  url: packages/julia-computing-packages.yml
+- type: SDKs
+  url: packages/julia-computing-packages.yml
+- type: Conformance
+  url: conformance/julia-computing-conformance.yml
+- type: DomainSecurity
+  url: security/julia-computing-domain-security.yml
+- type: LLMsTxt
+  url: llms/julia-computing-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

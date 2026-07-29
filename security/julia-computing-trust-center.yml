@@ -1,0 +1,11 @@
+generated: '2026-07-19'
+method: searched
+probe: true
+url: https://trust.juliahub.com/
+certifications: [SOC 2, SOC 3, PCI DSS, GDPR, CCPA]
+documents:
+  - name: "JuliaHub, Inc. SOC 3 Type 2 Report 2025"
+    type: pdf
+evidence:
+  - source: https://trust.juliahub.com/
+    keywords: [soc 2, soc 3 type 2, pci dss, gdpr, ccpa, trust center]

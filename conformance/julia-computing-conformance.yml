@@ -1,0 +1,28 @@
+generated: '2026-07-19'
+method: searched
+source: https://juliahub.com/.well-known/openid-configuration
+standards:
+  - id: openid-connect
+    conforms: true
+    evidence: Live OpenID Connect discovery document at https://juliahub.com/.well-known/openid-configuration (Dex issuer https://auth.juliahub.com/dex).
+  - id: oauth2
+    conforms: true
+    evidence: OAuth 2.0 authorization_code, refresh_token, device_code and token-exchange grant types advertised in OIDC discovery.
+  - id: oauth2-pkce
+    conforms: true
+    evidence: code_challenge_methods_supported includes S256.
+  - id: oauth2-device-authorization-grant
+    conforms: true
+    evidence: device_authorization_endpoint advertised (RFC 8628).
+  - id: soc2
+    conforms: true
+    evidence: SOC 2 / SOC 3 Type 2 report (2025) published on the JuliaHub trust center (trust.juliahub.com).
+  - id: pci-dss
+    conforms: true
+    evidence: PCI DSS listed on the JuliaHub trust center.
+  - id: gdpr
+    conforms: true
+    evidence: GDPR compliance documented on the JuliaHub trust center.
+  - id: ccpa
+    conforms: true
+    evidence: CCPA compliance documented on the JuliaHub trust center.

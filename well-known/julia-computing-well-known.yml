@@ -1,0 +1,17 @@
+generated: '2026-07-19'
+method: searched
+source: https://juliahub.com/.well-known/
+host: https://juliahub.com
+documents:
+  - path: /.well-known/openid-configuration
+    status: 200
+    file: julia-computing-openid-configuration.json
+    note: OpenID Connect discovery for the JuliaHub Dex identity provider (issuer https://auth.juliahub.com/dex)
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404

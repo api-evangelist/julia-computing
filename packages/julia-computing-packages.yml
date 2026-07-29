@@ -1,0 +1,23 @@
+generated: '2026-07-19'
+method: searched
+source: https://github.com/JuliaComputing
+packages:
+  - language: julia
+    registry: julia-general
+    name: JuliaHub
+    version: 0.1.17
+    url: https://juliahub.com/ui/Packages/General/JuliaHub
+    repository: https://github.com/JuliaComputing/JuliaHub.jl
+    docs: https://help.juliahub.com/juliahub-jl/stable/
+    install: 'import Pkg; Pkg.add("JuliaHub")'
+    description: Official first-party Julia client for the JuliaHub platform - authenticate, submit and manage batch jobs, and read/write datasets programmatically.
+    official: true
+  - language: julia
+    registry: julia-general
+    name: PkgAuthentication
+    version: 2.3.2
+    url: https://juliahub.com/ui/Packages/General/PkgAuthentication
+    repository: https://github.com/JuliaComputing/PkgAuthentication.jl
+    install: 'import Pkg; Pkg.add("PkgAuthentication")'
+    description: First-party package that authenticates a Julia depot against a JuliaHub package server (OIDC device/browser flow).
+    official: true
