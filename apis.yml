@@ -94,6 +94,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Website
+  url: https://www.juliahub.com/
 - type: DeveloperPortal
   url: https://help.juliahub.com/
 - type: Documentation
