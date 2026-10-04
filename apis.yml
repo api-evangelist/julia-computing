@@ -44,6 +44,10 @@ x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
+x-docs-platform: vitepress
+x-docs-platform-confidence: medium
+x-docs-platform-checked: 2026-10-03
+x-docs-hosting: aws-cloudfront
 tags:
 - Company
 - Julia
@@ -54,7 +58,7 @@ tags:
 - Data Science
 - Programming Language
 - Package Registry
-- Machine-Learning
+- Machine Learning
 - Pharma
 tags_raw:
 - Company
@@ -68,6 +72,7 @@ tags_raw:
 - Package Registry
 - Machine Learning
 - Pharma
+- Machine-Learning
 apis:
 - name: JuliaHub Platform
   description: >-
@@ -76,7 +81,6 @@ apis:
     programmatically through the first-party JuliaHub.jl Julia client with OpenID
     Connect authentication.
   humanURL: https://help.juliahub.com/juliahub/stable/
-  baseURL: https://juliahub.com
   tags:
   - Scientific Computing
   - Cloud Computing
