@@ -64,6 +64,105 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Julia Computing is a company surfaced as a portfolio company of general-catalyst and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+JuliaHub, Inc. (founded in 2015 as Julia Computing by the creators of the Julia programming language) develops the open-source Julia language and operates JuliaHub, a cloud platform for scientific and technical computing. JuliaHub provides hosted Julia compute, package hosting and the Julia package registry, notebooks, and large-scale batch/job execution. Its product portfolio includes JuliaHub (cloud compute), Dyad (equation-based modeling and simulation), Pumas (pharmaceutical modeling and simulation), and the Julia language itself, serving aerospace, pharma, industrials, government, and utilities. Programmatic access is provided through the first-party JuliaHub.jl Julia client and OpenID Connect (Dex) authentication.
 
-Backed by: general-catalyst
+**Areas:** Company · Julia · Scientific Computing · Modeling and Simulation · High Performance Computing · Cloud Computing · Data Science · Programming Language · Package Registry · Machine Learning · Pharma
+
+## Julia Computing on APIs.io
+
+Everything profiled for Julia Computing is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/julia-computing/](https://apis.io/providers/julia-computing/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [JuliaHub Platform](https://apis.io/apis/julia-computing/juliahub-platform/) — The JuliaHub cloud platform for scientific and technical computing - hosted Julia compute, batch/job execution, datasets, and the Julia package registry.…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Julia Computing Authentication](https://apis.io/security/julia-computing/julia-computing-authentication/)
+- [Julia Computing Domain Security](https://apis.io/security/julia-computing/julia-computing-domain-security/)
+- [Julia Computing Trust Center](https://apis.io/security/julia-computing/julia-computing-trust-center/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Julia Computing Scopes](https://apis.io/scopes/julia-computing/julia-computing-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Julia Computing Plans Pricing](https://apis.io/plans/julia-computing/julia-computing-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.juliahub.com/)
+- [Documentation](https://help.juliahub.com/juliahub/stable/)
+- [Getting started](https://help.juliahub.com/juliahub-jl/stable/getting-started/)
+- [Pricing](https://juliahub.com/pricing/juliahub)
+- [Blog](https://juliahub.com/blog)
+- [Trust centre](https://trust.juliahub.com/)
+- [Terms of service](https://juliahub.com/legal/terms)
+- [Privacy policy](https://juliahub.com/legal/privacy-policy)
+- [GitHub](https://github.com/JuliaComputing)
+
+## API Evangelist rating
+
+**Kin Score 31.0** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 64.3 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 52.4 |
+| Access clarity | 43.4 |
+
+**Agent readiness 10.8** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 31.6** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/julia-computing/](https://apis.io/providers/julia-computing/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Julia Computing: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/julia-computing/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
